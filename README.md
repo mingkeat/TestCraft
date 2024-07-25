@@ -4,20 +4,24 @@ This project will design a model which can generate unit tests with AI based on 
 # HwSpeedTest
 Starting with a sample unit test dataset for HwSpeedTest. Folder structure as below:
 
-hwSpeed (a shared library)
-  |->include
-        |->AbstractHwSpeedTest.h
-        |->HwSpeedReport.h
-        |->SampleTestMethod_Export.h
+hwSpeed (a shared library)  
+  |->include  
+        &emsp;|->AbstractHwSpeedTest.h  
+        &emsp;|->HwSpeedReport.h  
+        &emsp;|->SampleTestMethod_Export.h  
+  
+  |->src  
+        &emsp;|->AbstractHwSpeedTest.cpp  
+        &emsp;|->HwSpeedReport.cpp  
+          
+  |->apps (the executable)  
+        &emsp;|->main.cpp  
+  
+  |->tests (unit tests)  
+        &emsp;|->SampleTestMethodUnitTestBase.h  
+        &emsp;|->HwSpeedTestMock.h  
+        &emsp;|->HwSpeedReportTests.cpp  
 
-  |->src
-        |->AbstractHwSpeedTest.cpp
-        |->HwSpeedReport.cpp
-        
-apps (the executable)
-  |->main.cpp
+# To run the codes in Visual Studio Code
+1. Open Developer Command Prompt.
 
-tests (unit tests)
-  |->SampleTestMethodUnitTestBase.h
-  |->HwSpeedTestMock.h
-  |->HwSpeedReportTests.cpp
