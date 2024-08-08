@@ -22,6 +22,5 @@ hwSpeed (a shared library)
         &emsp;|->HwSpeedTestMock.h  
         &emsp;|->HwSpeedReportTests.cpp  
 
-# To run the codes in Visual Studio Code
-1. Open Developer Command Prompt.
+
 
