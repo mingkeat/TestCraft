@@ -1,5 +1,5 @@
 # TestCraft
-Currently this repository contains a sample C++ project: HwSpeedReport, which is used to perform experiments with user prompt (e.g. GitHub Copilot) to generate the unit test with the best coverage scores.
+Currently this repository contains a sample C++ project: HwSpeedReport, which is used to perform experiments with user prompt (e.g. using GitHub Copilot) to generate the unit test with the best coverage scores.
 
 Our baseline prompt as below:<br />
 **_You're a hardware validation test engineer._**
